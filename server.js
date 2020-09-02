@@ -28,16 +28,12 @@ app.get('/reserve', function(req, res) {
 });
 
 app.get('/api/table', function(req, res) {
-	/*for (var i = 0; i < 4; i++) {
-		res.json(customers[i]);
-	}*/
+	
 	return res.json(customers);
 });
 
 app.get('/api/waitlist', function(req, res) {
-	/*for (var i = 5; i < customers.length; i++) {
-		res.json(customers[i]);
-	}*/
+	
 	return res.json(waitlist);
 });
 
